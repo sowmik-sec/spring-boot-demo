@@ -13,4 +13,8 @@ public class FunRestController {
     public String workout(){
         return "Run a hard 5K";
     }
+    @GetMapping("/fortune")
+    public String fortune(){
+        return "dull day";
+    }
 }
