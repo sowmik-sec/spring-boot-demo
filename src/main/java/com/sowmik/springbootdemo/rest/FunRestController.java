@@ -9,4 +9,8 @@ public class FunRestController {
     public String hay(){
         return "Hello World";
     }
+    @GetMapping("/workout")
+    public String workout(){
+        return "Run a hard 5K";
+    }
 }
